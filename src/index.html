@@ -1,0 +1,52 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">adjunct Faculty Schedule Request</h1>
+
+<p id="description">Fill in details Bellow to complete your request</p>
+
+<form id="survey-form">
+     <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Enter name" required>
+    <br>
+    <label for="email" id="email-label">Email</label>
+    <input type="email" name="email" id="email" placeholder="work@gmail.com" required>
+    <br>
+    <label for="number" id="number-label">Number of Classes you Would Like To Teach</label>
+    <input type="number" name="number" id="number" placeholder="1" min="1" max="2" required>
+    <br>
+    <label for="dropdown" id="division">Select Division</label>
+    <select id="dropdown">
+        <option value="cis">CIS-computer information system</option>
+        <option value="bis">BIT-Business Information Technology</option>
+    </select>
+    <br><br>
+    <lable for="tod" id="tod">Time of day</lable>
+    <br>
+   <input type="radio" name="hour" id="tod" value="morning">
+   <label for="tod">Morning: 8a - 11:59a</label>
+   <br>
+   <input type="radio" name="hour" id="tod"
+   Value="afternoon">
+   <label for="tod">Afternoon: 12p - 4:59p</label>
+   <br>
+   <input type="radio" name="hour" id="tod" value="evening">
+   <label for="tod">Evening: 5p - 10p</label>
+   <br><br>
+   <label for="mode"><b>Mode</b></label>
+   <br>
+   <input type="checkbox" name="mode" id="checkbox" value="online">
+   <label for="checkbox">online</label>
+   <br>
+   <input type="checkbox" name="mode" id="checkbox" value="ftf">
+   <label for="checkbox">In person / FTF {face-to-face}</label>
+   <br>
+   <input type="checkbox" name="mode" id="checkbox" Value="hybrid">
+   <label for="checkbox">Hybrid</label>
+   <br><br>
+   <label for="textarea">Enter the Courses You Are Interested in learning</label>
+   <br>
+   <textarea name="instructions" id="textarea" cols="40" rows="10"></textarea>
+   <br><br>
+   <input type="submit" id="submit" value="Submit">
+    
+</form>
